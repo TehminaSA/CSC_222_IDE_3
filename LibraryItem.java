@@ -5,7 +5,7 @@ public abstract class LibraryItem {
     private String author;
     private int yearPublished;
     private int itemID;
-    public LibraryItem(String title, String author, int yearPublished, int itemID)
+    public LibraryItem (String title, String author, int yearPublished, int itemID)
     {
         this.title = title;
         this.author = author;
