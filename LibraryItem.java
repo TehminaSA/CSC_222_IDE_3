@@ -1,3 +1,5 @@
+package ide3;
+
 public abstract class LibraryItem {
     private String title;
     private String author;
