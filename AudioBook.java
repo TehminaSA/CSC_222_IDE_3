@@ -1,16 +1,16 @@
 package ide3;
+
 public class AudioBook extends LibraryItem {
-    private int durationMinutes;
-
-    public Audiobook (String title, String author, int yearPublished, int itemID, int durationMinutes) {
+    private int duration;
+    public AudioBook (String title, String author, int yearPublished, int itemID, int duration) {
         super(title, author, yearPublished, itemID);
-        this.durationMinutes = durationMinutes;
+        this.duration = duration;
     }
-
     @Override
     public void displayInfo() {
         super.displayInfo();
-        System.out.println("Duration (minutes): " + durationMinutes);
+        System.out.println("Duration (in minutes): " + duration);
     }
 }
+
 
